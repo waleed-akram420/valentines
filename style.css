@@ -21,11 +21,22 @@ body {
   }
   
   #yes {
+    border-radius: 10px;
     background: #ff4d6d;
     color: white;
     border: none;
+    position: relative;
+    z-index: 5;
   }
   
   #no {
+    border-radius: 10px;
     position: relative;
+  }
+
+  #result {
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    z-index: 10; /* higher than YES button */
   }
