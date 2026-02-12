@@ -23,6 +23,8 @@ yes.onclick = () => {
     spread: 70,
     origin: { y: 0.6 },
   });
+
+  no.style.visibility = 'hidden'
 };
 
 no.onclick = () => {
